@@ -1,0 +1,10 @@
+# Squadcard for Codex. The quick way is two commands:
+#   codex mcp add squadcard --url https://squadcard.app/api/mcp
+#   codex mcp login squadcard
+# Or add this to ~/.codex/config.toml and run `codex mcp login squadcard`.
+[mcp_servers.squadcard]
+url = "https://squadcard.app/api/mcp"
+
+# No browser where Codex runs? Make a key at https://squadcard.app/account (AI agents), put it in
+# the SQUADCARD_AGENT_KEY environment variable, and uncomment:
+# bearer_token_env_var = "SQUADCARD_AGENT_KEY"

@@ -1,0 +1,15 @@
+{
+  "name": "squadcard",
+  "description": "Squadcard for AI agents: organise your weekly football game from Claude Code.",
+  "owner": {
+    "name": "Squadcard",
+    "url": "https://squadcard.app"
+  },
+  "plugins": [
+    {
+      "name": "squadcard",
+      "source": "./claude-code-plugin",
+      "description": "Set up your weekly football game from Claude Code: fair teams, fixtures, squads and invite links."
+    }
+  ]
+}
