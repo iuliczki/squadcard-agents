@@ -1,9 +1,0 @@
-{
-  "name": "squadcard",
-  "displayName": "Squadcard",
-  "description": "Set up your weekly football game from Claude Code: fair teams, fixtures, a squad with its invite link, who's in and the teams. You sign in to Squadcard once in your browser.",
-  "version": "1.0.0",
-  "author": { "name": "Squadcard", "url": "https://squadcard.app" },
-  "homepage": "https://squadcard.app/agents",
-  "keywords": ["football", "soccer", "five-a-side", "teams", "mcp"]
-}

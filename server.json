@@ -1,0 +1,12 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-07-09/server.schema.json",
+  "name": "io.github.iuliczki/squadcard",
+  "description": "Organise a weekly football game: fair teams, fixtures, squads, who is in, and the vote link.",
+  "version": "1.0.0",
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://squadcard.app/api/mcp"
+    }
+  ]
+}

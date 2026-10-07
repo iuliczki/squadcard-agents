@@ -44,3 +44,12 @@ codex mcp login squadcard
 Make a key at https://squadcard.app/account under "AI agents" and send it as `Authorization: Bearer <key>`
 (`codex/config.toml` shows how for Codex). A key has the same limits as signing in, and you disconnect either
 on the same page.
+
+## What is in this repository
+
+- `plugins/squadcard/`: the Claude Code plugin (the server, a skill, its own README and licence)
+- `.claude-plugin/marketplace.json`: lets Claude Code install the plugin from this repository
+- `codex/config.toml`: the same server for Codex
+- `server.json`: the entry for the MCP registry
+
+MIT licence.
