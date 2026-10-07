@@ -1,8 +1,14 @@
 {
-  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-07-09/server.schema.json",
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
   "name": "io.github.iuliczki/squadcard",
+  "title": "Squadcard",
   "description": "Organise a weekly football game: fair teams, fixtures, squads, who is in, and the vote link.",
   "version": "1.0.0",
+  "websiteUrl": "https://squadcard.app/agents",
+  "repository": {
+    "url": "https://github.com/iuliczki/squadcard-agents",
+    "source": "github"
+  },
   "remotes": [
     {
       "type": "streamable-http",
