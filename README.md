@@ -23,8 +23,14 @@ It can never see how anyone voted, mark payments, buy anything, remove players o
 claude mcp add --transport http squadcard https://squadcard.app/api/mcp
 ```
 
-Then `/mcp` → `squadcard` → sign in. Or install the plugin in `claude-code-plugin/`, which adds the server and a
-skill that tells Claude how to use it.
+Then `/mcp` → `squadcard` → sign in.
+
+Or install the plugin, which adds the server and a skill that tells Claude how to use it. In Claude Code:
+
+```
+/plugin marketplace add iuliczki/squadcard-agents
+/plugin install squadcard@squadcard
+```
 
 ## Codex
 
