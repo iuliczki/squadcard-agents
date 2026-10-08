@@ -17,6 +17,19 @@ Claude how to use the tools well.
 
 The first three need no squad. The rest act on the squads of the person who signed in.
 
+## Example prompts
+
+Things you can type as they are:
+
+1. "Split these ten into two fair teams, Sam and Kofi are keepers: Sam, Kofi, Priya, Tom, Dan, Aisha, Lewis, Ollie, Jay, Rob."
+2. "Make a round-robin for four teams: Reds, Blues, Greens and Yellows. Home and away."
+3. "Start a 5-a-side squad called Tuesday Fives and give me the invite link."
+4. "Who's in for our next game? If we have ten, pick the teams."
+5. "We finished 7-5 to the bibs. Enter the result and give me the vote link."
+
+The first two need no squad. The rest act on your own squads, and Claude asks before it starts a squad or
+saves a score, because other people see those.
+
 ## Signing in
 
 The first time Claude uses a squad tool, your browser opens. You sign in to Squadcard and press Allow. Claude
